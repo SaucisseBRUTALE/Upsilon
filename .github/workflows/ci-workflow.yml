@@ -253,7 +253,6 @@ jobs:
       - run: make -j2 MODEL=n0110 epsilon.onboarding.update.dfu
       - run: make -j2 MODEL=n0110 epsilon.onboarding.beta.dfu
       - run: make -j2 MODEL=n0110 flasher.light.dfu
-      - run: make -j2 MODEL=n0110 flasher.verbose.dfu
       - run: make -j2 MODEL=n0110 flasher.verbose.bin
       - run: make -j2 MODEL=n0110 bench.ram.dfu
       # - run: make -j2 MODEL=n0110 bench.flash.dfu
